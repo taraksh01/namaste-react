@@ -1,0 +1,20 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Learning react from namaste-react web series by Akshay Saini.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "React",
+    "namaste-react",
+    "taraksh01",
+    "Tarak Shaw"
+  ],
+  "author": "Tarak Shaw",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

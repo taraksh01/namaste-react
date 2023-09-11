@@ -7,12 +7,25 @@
   </head>
   <body>
     <div id="root"></div>
-    <script>
-      const heading = document.createElement("h1");
-      heading.textContent = "Namaste React from javascript";
 
-      const root = document.querySelector("#root");
-      root.appendChild(heading);
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script>
+      const heading = React.createElement(
+        "h1",
+        {},
+        "Namaste React using React"
+      );
+
+      const root = ReactDOM.createRoot(document.querySelector("#root"));
+      root.render(heading);
     </script>
   </body>
 </html>

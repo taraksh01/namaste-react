@@ -28,3 +28,7 @@ const parent = React.createElement(
 );
 
 root.render(parent);
+
+// Using JSX style
+const heading2 = <h2>Namaste react again 🚀</h2>;
+root.render(heading2);

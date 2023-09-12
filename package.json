@@ -5,6 +5,10 @@
   "scripts": {
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taraksh01/namaste-react.git"
+  },
   "keywords": [
     "React",
     "namaste-react",
@@ -13,6 +17,10 @@
   ],
   "author": "Tarak Shaw",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taraksh01/namaste-react/issues"
+  },
+  "homepage": "https://github.com/taraksh01/namaste-react#readme",
   "devDependencies": {
     "parcel": "^2.9.3",
     "process": "^0.11.10"
@@ -21,5 +29,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "browserslist": ["last 3 versions"]
+  "browserslist": [
+    "last 3 versions"
+  ]
 }

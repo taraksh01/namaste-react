@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import Potato from "./Potato";
 
 const heading = React.createElement(
   "h1",
@@ -51,3 +52,5 @@ const Title = () => {
 let name = "Tarak";
 
 root.render(<HeadingComponent />);
+
+root.render(<Potato />);

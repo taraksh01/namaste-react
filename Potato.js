@@ -29,7 +29,7 @@ const Body = () => {
     <div className="body">
       <div className="search">
         <input type="text" className="search-box" placeholder="potato" />
-        <p className="search-text">search</p>
+        <button className="search-text">search</button>
       </div>
     </div>
   );

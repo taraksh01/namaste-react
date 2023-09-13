@@ -34,3 +34,37 @@
 .header > nav > ul > li:hover {
   border-bottom: 2px solid orange;
 }
+
+.body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.body > .search {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: orange;
+  margin: 20px;
+  align-items: center;
+  font-size: 32px;
+}
+
+.search-box {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  margin: 6px;
+  font-size: 26px;
+  padding-left: 12px;
+}
+
+.search-text {
+  border: none;
+  font-size: 30px;
+  border: 1px solid gray;
+  cursor: pointer;
+  padding: 2px 16px;
+  border-radius: 12px;
+}

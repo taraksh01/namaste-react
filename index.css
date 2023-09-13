@@ -1,3 +1,36 @@
-#heading {
-  color: orange;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12px;
+}
+
+.header h1 {
+  font-size: 48px;
+  color: #ffa500;
+}
+
+.header > nav > ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.header > nav > ul > li {
+  padding: 6px 20px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.header > nav > ul > li:hover {
+  border-bottom: 2px solid orange;
 }

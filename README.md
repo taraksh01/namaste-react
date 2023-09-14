@@ -17,3 +17,9 @@
 - Diagnostic ==> Give hints to resolve errors
 - Tree Shaking ==> Remove unused codes
 - Different production and development builds
+
+# React Hooks
+
+(Normal javascript utility functions)
+
+- **useState()** : It is a superpowerful state variable for react state variable

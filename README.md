@@ -32,14 +32,21 @@ class MyComponent extends React.Component {
   constructor(props) {
     super(props);
     console.log(props);
+
+    this.state = {
+      // contains all state variables
+      numberOfProjects: 1,
+    };
   }
 
   render() {
     const { name, location } = this.props;
+    const { numberOfProjects } = this.state;
     return (
       <div>
         <h1>Hello, my name is{name}</h1>
         <p>I live in {location}</p>
+        <p>I have {numberOfProjects} projects</p>
       </div>
     );
   }

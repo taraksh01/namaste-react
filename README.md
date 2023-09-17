@@ -44,6 +44,14 @@ class MyComponent extends React.Component {
     console.log("componentDidMount");
   }
 
+  componentDidUpdate() {
+    console.log("componentDidUpdate");
+  }
+
+  componentWillUnmount() {
+    console.log("componentWillUnmount");
+  }
+
   render() {
     const { name, location } = this.props;
     const { numberOfProjects } = this.state;

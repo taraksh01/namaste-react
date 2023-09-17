@@ -46,7 +46,18 @@ class MyComponent extends React.Component {
       <div>
         <h1>Hello, my name is{name}</h1>
         <p>I live in {location}</p>
-        <p>I have {numberOfProjects} projects</p>
+        <p>
+          I have {numberOfProjects} projects
+          <button
+            onClick={() =>
+              this.setState({
+                numberOfProjects: this.state.numberOfProjects + 1,
+              })
+            }
+          >
+            Increase project count
+          </button>
+        </p>
       </div>
     );
   }
